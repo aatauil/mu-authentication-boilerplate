@@ -18,7 +18,7 @@ services:
     ports:
       - "80:80"
   dispatcher:
-    image: semtech/mu-dispatcher:2.0.0
+    image: semtech/mu-dispatcher:2.1.0-beta.1
     links:
       - resource:resource
     volumes:
