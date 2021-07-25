@@ -8,6 +8,11 @@ services:
     restart: "no"
   virtuoso:
     restart: "no"
+  database:
+    restart: "no"
   resource:
     restart: "no"
+  authentication:
+    restart: "no"
+
 
